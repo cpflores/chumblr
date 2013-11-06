@@ -1,5 +1,6 @@
 Chumblr::Application.routes.draw do
   resources :posts
+  resources :hearts, only: :create
 
   get 'about' => 'pages#about'
 
