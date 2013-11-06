@@ -36,7 +36,7 @@ post3 = Post.create(
 
 #sushi
 post4 = Post.new(title: "sushi", kind: "text")
-post4 = <<CONTENT 
+post4.content = <<CONTENT 
 Ingredients
 Juice of 1/2 lemon
 1 medium avocado, peeled, pitted, and sliced into 1/4-inch thick pieces
