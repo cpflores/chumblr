@@ -34,10 +34,10 @@ post3 = Post.create(
 
 19.times { post3.hearts.create }
 
-#sushi
-post4 = Post.new(title: "sushi", kind: "text")
+#california sushi
+post4 = Post.new(title: "california sushi", kind: "text")
 post4.content = <<CONTENT 
-	Ingredients
+	Ingredients:
 Juice of 1/2 lemon
 1 medium avocado, peeled, pitted, and sliced into 1/4-inch thick pieces
 4 sheets nori
@@ -66,8 +66,6 @@ Place the rice and 2 cups of water into a medium saucepan and place over high he
 Combine the rice vinegar, sugar and salt in a small bowl and heat in the microwave on high for 30 to 45 seconds. Transfer the rice into a large wooden or glass mixing bowl and add the vinegar mixture. Fold thoroughly to combine and coat each grain of rice with the mixture. Allow to cool to room temperature before using to make sushi or sashimi.
 
 Yield: 4 cups
-
-Read more at: http://www.foodnetwork.com/recipes/alton-brown/california-roll-recipe/index.html?oc=linkback"
 CONTENT
 
 post4.save
