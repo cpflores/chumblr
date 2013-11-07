@@ -36,8 +36,8 @@ post3 = Post.create(
 
 #sushi
 post4 = Post.new(title: "sushi", kind: "text")
-post4.content = " 
-Ingredients
+post4.content = <<CONTENT 
+	Ingredients
 Juice of 1/2 lemon
 1 medium avocado, peeled, pitted, and sliced into 1/4-inch thick pieces
 4 sheets nori
@@ -68,6 +68,7 @@ Combine the rice vinegar, sugar and salt in a small bowl and heat in the microwa
 Yield: 4 cups
 
 Read more at: http://www.foodnetwork.com/recipes/alton-brown/california-roll-recipe/index.html?oc=linkback"
+CONTENT
 
 post4.save
 
